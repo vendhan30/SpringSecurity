@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class Accesspoint {
     
-	@GetMapping(value="/student")
+	@GetMapping(value="/studentt")
 	public String getStudent() {
 		return "hello Student";
 	}
